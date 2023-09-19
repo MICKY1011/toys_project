@@ -1,6 +1,6 @@
 const indexR = require("./index")
 const userR = require("./user")
-const productR = require("./product")
+const productR = require("./toys")
 
 exports.routes = (app) => {
     app.use("/" , indexR);
